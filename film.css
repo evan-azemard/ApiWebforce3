@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: black;
+}
+header{
+    background-color: rgba(209, 55, 55, 0.6);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+
+.cards{
+    margin: 50px;
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    word-break: break-word;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards div{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem;
+    color: rgb(14 14 14 / 60%);
+    font-weight: bold;
+}
+
+.cards div p{
+        text-align: center;
+    align-items: center;
+}
+
+
+button{
+    color: white;
+    background-color: rgb(64, 63, 63);
+    font-size: 1.5rem;
+    border: none;
+    transition: .3s;
+}
+button:hover{
+    background-color: #E38787;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(209, 55, 55, 0.6);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+
+
+
+
+
