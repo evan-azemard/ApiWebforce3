@@ -1,0 +1,22 @@
+.bg-image {
+    background-image: url(img/List-film.jpg);
+    height: 100px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+img {
+    max-height: 222px;
+    object-fit: cover;
+    
+}
+button {
+    position: absolute;
+    bottom: 10px;
+}
+.card-text {
+    margin-bottom: 100px;
+}
